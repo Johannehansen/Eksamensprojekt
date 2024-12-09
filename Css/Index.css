@@ -1,0 +1,31 @@
+/* Grundlæggende stil for body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e1e6e1;
+  }
+  
+.Logo img {
+    display: none;
+ }
+
+#Stortlogo{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: auto;
+}
+
+#Startguitar{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+.Forsidebillede{
+    width: 30%;
+    height: auto;
+    margin-left: 2.5%;
+}
