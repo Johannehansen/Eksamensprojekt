@@ -37,7 +37,7 @@ body {
 
 
 /*styling af artikler*/
-.container {
+.article {
     width: 100%;
     margin: auto;
 }
@@ -107,7 +107,6 @@ body {
     }
 
 }
-
 
 /* Responsivt design */
 @media (max-width: 600px) {
