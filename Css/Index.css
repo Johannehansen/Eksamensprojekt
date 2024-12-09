@@ -96,7 +96,7 @@ body {
 }
 
 /*Media for tablet*/
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
 
     .section p {
         line-height: 1.5;
@@ -109,7 +109,13 @@ body {
 }
 
 /* Responsivt design */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+
+    .Forsidebilleder{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
     .section {
         flex-direction: column;
         text-align: center;
@@ -125,7 +131,5 @@ body {
         padding-bottom: 5%;
     }
 
-    .Forsidebilleder{
-        flex-direction: column;
-    }
+    
 }
