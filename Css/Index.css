@@ -18,14 +18,66 @@ body {
     height: auto;
 }
 
-#Startguitar{
+.Guitar{
     width: 100%;
     height: auto;
-    margin-bottom: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .Forsidebillede{
     width: 30%;
     height: auto;
     margin-left: 2.5%;
+}
+
+/*styling af artikler*/
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #5E2B8A;
+}
+
+
+.section h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.section p {
+    line-height: 1.5;
+}
+
+.section .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.section .image {
+    flex: 1;
+    text-align: center;
+}
+
+.section .image img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Justering af tekstretning */
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }

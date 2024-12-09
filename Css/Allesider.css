@@ -70,6 +70,10 @@
   .nav-links li {
     margin: 20px;
   }
+
+  .nav-links li li a {
+    text-decoration: none;
+  }
   
   .nav-links a {
     text-decoration: none;
