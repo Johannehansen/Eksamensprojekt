@@ -16,7 +16,7 @@
   
   .search-input {
     width: 100%;
-    max-width: 40px; /* Juster størrelsen på søgefeltet */
+    max-width: 60px; /* Juster størrelsen på søgefeltet */
     padding: 8px;
     font-size: 16px;
     border: 2px solid #371042;

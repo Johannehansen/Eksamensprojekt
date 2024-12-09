@@ -4,4 +4,9 @@ body {
     background-color: #e1e6e1;
   }
 
-
+  .Guitar{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
