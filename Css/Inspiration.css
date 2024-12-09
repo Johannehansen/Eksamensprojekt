@@ -13,35 +13,22 @@ body {
 
 .Inspirationstekst {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 40px;
-}
-
-.Facade{
-    margin-left: 7%;
-    margin-bottom: -2%;
-}
-
-section p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     line-height: 1.5;
     color: #371042;
     padding-left: 5%;
     padding-right: 5%;
-
 }
 
-.section .text {
-    flex: 1;
-    padding: 20px;
+#Facadebillede{
+    width: 100%;
+    height: auto;
+    padding: 2%;
 }
 
-.section .image {
-    flex: 1;
-    text-align: center;
-}
 
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -55,27 +42,38 @@ h1{
 #Infographic{
     width: 100%;
     height: auto;
+    margin-bottom: -3%;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #2b4f23;
+    opacity: 50%;
+    padding: 3%;
 }
 
 /*Media for tablet*/
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
 
     .Inspirationstekst {
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
-    section p {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: medium;
+        font-size: large;
         line-height: 1.5;
         color: #371042;
-    
+        padding: 2%;
     }
     
     #Facadebillede{
-        width: 400px;
+        width: 70%;
         height: auto;
+        padding: 2%;
     }
 
     h1{
@@ -91,24 +89,22 @@ h1{
 }
 
 /* Media for mobil */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   
     .Inspirationstekst {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-    section p {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
+        font-size: medium;
         line-height: 1.5;
         color: #371042;
-    
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     #Facadebillede{
-        width: 70%;
+        width: 90%;
         height: auto;
     }
 
@@ -119,6 +115,16 @@ h1{
         flex-direction: column; /* Laver en lodret stak af h2 og p */
         text-align: center;
         color: #371042;
+    }
+
+    h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: medium;
+        text-align: center;
+        color: white;
+        background-color: #2b4f23;
+        opacity: 50%;
+        padding: 3%;
     }
 
 }
