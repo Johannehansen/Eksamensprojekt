@@ -86,3 +86,19 @@ body {
 .align-right {
     text-align: right;
 }
+
+/* Responsivt design */
+@media (max-width: 600px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section .text {
+        padding: 10px;
+    }
+
+    .section .image img {
+        width: 100%;
+    }
+}
