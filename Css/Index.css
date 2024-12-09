@@ -51,10 +51,15 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     color: white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .section p {
     line-height: 1.5;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .section .text {
