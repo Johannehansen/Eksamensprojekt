@@ -32,11 +32,11 @@ section{
     font-weight: bold;
     color: #371042;
     padding-left: 5%;
+    margin-right: 10%;
 }
 
 .skraetekst{
     font-style: oblique;
-    font-weight: 300px;
 }
 
 article{
@@ -46,8 +46,12 @@ article{
     color: #000;
     padding-left: 5%;
     display: flexbox;
-    margin-right: 5%;
-    
+    margin-right: 5%; /* sørger for at det er centreret med de andre tekster */
+}
+
+.broedtekst{
+    margin-left: -5%;/* sørger for at det er centreret med de andre tekster */
+    margin-right: 6%;/* sørger for at det er centreret med de andre tekster */
 }
 
 #Lasse{
@@ -68,11 +72,11 @@ article{
     align-items: center;
 }
 
-.kollonner{
+.kolonner{
     display: flex;
     justify-self: space-between;
     align-content: start;
-    margin-left: -5%;
+    margin-left: -5%;/* sørger for at det er centreret med de andre tekster */
     gap: 5%;
 }
 
@@ -80,5 +84,106 @@ article{
     width: 47%;
     height: auto;
     display: flexbox;
+
+}
+
+/*Media for tablet*/
+/*Jeg har på denne side valgt at lave tablet mediaet mindre, da det gav mening ift mine kolonner */
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+
+    /* Styling af overskrifter */
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    color: #371042;
+    padding-left: 5%;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: #371042;
+    padding-left: 5%;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #371042;
+    padding-left: 5%;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 1.8;
+    color: #000;
+    padding-left: 5%;
+    display: flexbox;
+    margin-right: 5%;
+    
+}
+
+}
+/* Media for mobil */
+/*Jeg har derfor gjort mobil mediaet 100px større*/
+@media (max-width: 800px) {
+
+    /* Styling af overskrifter */
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    color: #371042;
+    padding-left: 5%;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: #371042;
+    padding-left: 5%;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #371042;
+    padding-left: 5%;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 1.8;
+    color: #000;
+    padding-left: 5%;
+    display: flexbox;
+    margin-right: 5%;
+}
+
+.billedeogquote{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#Lasse{
+    width: 90%;
+    height: auto;
+    padding-right: 5%;
+}
+
+#Noder{
+    width: 10%;
+    height: auto;
+    padding-left: 70%;
+    margin-top: -40%;
+}
+
+.kolonner{
+    display: block;
+    margin-left: -5%;/* sørger for at det er centreret med de andre tekster */
+    gap: 5%;
+}
 
 }
