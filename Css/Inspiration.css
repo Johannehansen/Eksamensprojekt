@@ -24,8 +24,8 @@ body {
     padding-right: 5%;
 }
 
-#Facadebillede{
-    width: 100%;
+#Workshop{
+    width: 50%;
     height: auto;
     padding: 2%;
 }
@@ -131,7 +131,7 @@ h3{
         padding: 2%;
     }
     
-    #Facadebillede{
+    #Workshop{
         width: 70%;
         height: auto;
         padding: 2%;
@@ -163,7 +163,7 @@ h3{
         margin-right: 5%;
     }
     
-    #Facadebillede{
+    #Workshop{
         width: 90%;
         height: auto;
     }
