@@ -57,14 +57,15 @@
     .nav-links {
     display: none;
     flex-direction: column;
-    justify-content: space-between;     
+    justify-content: space-between;  
+    align-items: center;   
     position: absolute;
     top: 70px;
     right: 20px;
     background-color: #4f2c8c;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
     }
   
   .nav-links li {
@@ -86,6 +87,7 @@
     color: #371042; /* Ændre farven på links når de hoveres */
   }
 
+  /* Fjerner checkbox felt*/
   .menu-toggle {
     display: none;
 
@@ -120,12 +122,14 @@
   padding: 2%;
 }
 
+/* små overskrifter til hver footer-sektion */
 .footer-section h2 {
   text-align: center;
   margin: 0;
   font-size: medium;
 }
 
+/* tekst i de forskellige sketioner */
 .footer-section p{
   text-align: center;
   margin-top: 5%;
@@ -133,6 +137,7 @@
   
 }
 
+/* Insta og facebook logo */
 #Instaface{
   width: 100px;
   height: auto;

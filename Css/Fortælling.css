@@ -11,6 +11,7 @@ body {
     height: auto;
 }
 
+/* Styling af overskrifter */
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
@@ -35,19 +36,49 @@ section{
 
 .skraetekst{
     font-style: oblique;
+    font-weight: 300px;
 }
 
 article{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    line-height: 1.8;
     color: #000;
     padding-left: 5%;
-    padding-right: 20%;
     display: flexbox;
-    justify-self: space-between;
+    margin-right: 5%;
+    
 }
 
 #Lasse{
-    width: 50%;
+    width: 30%;
     height: auto;
+    padding-right: 5%;
+}
+
+#Noder{
+    width: 10%;
+    height: auto;
+    padding-left: 10%;
+}
+
+.billedeogquote{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.kollonner{
+    display: flex;
+    justify-self: space-between;
+    align-content: start;
+    margin-left: -5%;
+    gap: 5%;
+}
+
+#Lassedanser{
+    width: 48%;
+    height: auto;
+    display: flexbox;
+
 }
