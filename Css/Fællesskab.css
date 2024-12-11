@@ -55,18 +55,16 @@ h3{
     width: 33.3%;
     height: auto;
 }
-
 #Mand{
     width: 33.3%;
     height: auto;
 }
-
-
 #Ur{
     width: 33.3%;
     height: auto;
 }
 
+/* Styling tekst kolonner og overskrift under figuren */
 .Tekster{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
@@ -149,11 +147,11 @@ h4{
     display: none;
   }
   
-  /* Når "donate" radio-knappen er markeret */
+  /* Når doner-knappen trykkes på forsvinder den og tekstfelterne*/
   .gemt-radio:checked ~ .donation-form {
     display: none; /* Skjul formularen */
   }
-  
+   /* I stedet kommer takkebeskeden frem*/
   .gemt-radio:checked ~ .takkebesked {
     display: block; /* Vis takkebeskeden */
   }
