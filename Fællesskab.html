@@ -99,14 +99,29 @@
                 Dine penge vil blive brugt på at forbedre den generelle oplevese. 
                 Det kan f.eks. være ved at optimere toilettforholdnene, købe nye lys/ lydanlæg, 
                 bedre instrumenter, mere øl i baren,  osv.  Alt sammen så vi kan sørge for, at du altid får den bedste oplevelse! 
-                Så lad vær med at tøve! Klik på knappen under for at foretage en donation & hjælpe os med at bidrage til 
-                Aarhus kulturliv. 
+                Så lad vær med at tøve! Oplys dit for- og efternavn herunder, samt hvor meget du ønsker at donere. Så giver du din støtte til
+                at vi fortsat kan bidrage til Aarhus kulturliv. 
             </p>
         </article>
         <img src="Images/Startguitar.png" alt="Starten af en Guitar" id="Guitar">
-        <div class="container">
-            <button class="donerknap">Donér nu</button>
-            <span class="takkeknap">Tak for din bidrag til Aarhus kulturliv!</span>
+
+
+        <div class="donation-container">
+            <!-- Der bruges en radio button til at styre visning -->
+            <input type="radio" id="donate" name="donation" class="gemt-radio">
+            
+            <!-- Formular -->
+            <div class="donation-form">
+              <input type="text" name="firstname" placeholder="Fornavn" required>
+              <input type="text" name="lastname" placeholder="Efternavn" required>
+              <input type="text" name="Donatiin" placeholder="Donation i kroner" required>
+              <label for="donate" class="donerknap">Donér nu</label>
+            </div>
+          
+            <!-- Takkebesked -->
+            <div class="takkebesked">
+              Tak for din støtte!
+            </div>
           </div>
     </main>
     
