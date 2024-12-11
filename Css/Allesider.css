@@ -8,13 +8,13 @@
   }
   
   /* Søgefelt */
-  .search-container {
+  .søge-container {
     display: flex;
     justify-content: flex-start;
     flex: 1;
   }
   
-  .search-input {
+  .søge-input {
     width: 100%;
     max-width: 60px; /* Juster størrelsen på søgefeltet */
     padding: 8px;
@@ -115,7 +115,7 @@
 }
 
 /* Flex styling til hver footer-sektion */
-.footer-section {
+.footer-sektion {
   display: flex;
   flex-direction: column; /* Laver en lodret stak af h2 og p */
   align-items: center; /* Justerer elementerne over hinanden */
@@ -123,14 +123,14 @@
 }
 
 /* små overskrifter til hver footer-sektion */
-.footer-section h2 {
+.footer-sektion h2 {
   text-align: center;
   margin: 0;
   font-size: medium;
 }
 
 /* tekst i de forskellige sketioner */
-.footer-section p{
+.footer-sektion p{
   text-align: center;
   margin-top: 5%;
   font-size: small;
@@ -148,7 +148,7 @@
 /*Media for tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
 
-    .footer-section {
+    .footer-sektion {
         display: flex;
         flex-direction: column; /* Laver en lodret stak af h2 og p */
         align-items: center; /* Justerer elementerne over hinanden */
@@ -156,13 +156,13 @@
         padding: 2%;
       }
       
-      .footer-section h2 {
+      .footer-sektion h2 {
         text-align: center;
         margin: 0;
         font-size: small;
       }
       
-      .footer-section p{
+      .footer-sektion p{
         text-align: center;
         margin-top: 5%;
         font-size: x-small;

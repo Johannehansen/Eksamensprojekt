@@ -41,12 +41,12 @@ body {
 
 
 /*styling af artikler*/
-.article {
+.artikler {
     width: 100%;
     margin: auto;
 }
 
-.section {
+.sektion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@ body {
 }
 
 
-.section h2 {
+.sektion h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     text-transform: uppercase;
@@ -66,7 +66,7 @@ body {
     padding-right: 5%;
 }
 
-.section p {
+.sektion p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     line-height: 1.5;
@@ -76,17 +76,17 @@ body {
 
 }
 
-.section .text {
+.sektion .tekst {
     flex: 1;
     padding: px;
 }
 
-.section .image {
+.sektion .billede {
     flex: 1;
     text-align: center;
 }
 
-.section .image img {
+.sektion .billede img {
     width: 80%;
     height: auto;
     border-radius: 8px;
@@ -105,7 +105,7 @@ body {
 /*Media for tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
 
-    .section p {
+    .sektion p {
         line-height: 1.5;
         font-size: xx-small;
         color: white;
@@ -123,16 +123,16 @@ body {
         width: 100%;
         height: auto;
     }
-    .section {
+    .sektion {
         flex-direction: column;
         text-align: center;
     }
 
-    .section .text {
+    .sektion .tekst {
         padding: 10px;
     }
 
-    .section .image img {
+    .sektion .image img {
         width: 50%;
         padding-top: 5%;
         padding-bottom: 5%;
