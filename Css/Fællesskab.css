@@ -1,0 +1,91 @@
+/* Grundlæggende stil for body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e1e6e1;
+  }
+
+/* Styling for den store overskrift */
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xxx-large;
+    color: #371042;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: -5%;
+}
+
+/* Styling for illustartionen af fællesskab */
+#Illustrationcommunity{
+    width: 95%;
+    height: auto;
+    padding-right: 5%;
+    margin-bottom: -5%;
+}
+
+/* sørger for at illustrationer fordeler sig korrekt på siden */
+.Figure{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/* styler på overskrifterne*/
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    color: #371042;
+    text-align: center;
+}
+
+/* styler teksten til hver enkelte figur*/
+.tekst{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+
+/* Konkret styling af hver Figur */
+#Pin{
+    width: 33.3%;
+    height: auto;
+}
+
+#Mand{
+    width: 33.3%;
+    height: auto;
+}
+
+
+#Ur{
+    width: 33.3%;
+    height: auto;
+}
+
+.Tekster{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: #371042;
+    text-align: center;
+}
+
+/* Styling af begge guitar illustartioner */
+#Guitar{
+    width: 100%;
+    height: auto;
+}
