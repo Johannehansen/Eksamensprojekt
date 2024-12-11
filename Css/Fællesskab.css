@@ -11,8 +11,8 @@ h1{
     font-size: xxx-large;
     color: #371042;
     text-align: center;
-    margin-top: 15%;
-    margin-bottom: -5%;
+    margin-top: 10%;
+    margin-bottom: -8%;
 }
 
 /* Styling for illustartionen af fællesskab */
@@ -89,3 +89,34 @@ h4{
     width: 100%;
     height: auto;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+  }
+  
+  .donerknap {
+    display: block;
+    background-color: #5E2B8A;
+    color: white;
+    padding: 2%;
+    font-size: small;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+  
+  .takkeknap {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #371042;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .donerknap:focus + .takkeknap {
+    display: block;
+  }

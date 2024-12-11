@@ -94,11 +94,11 @@ body {
 }
 
 /* Justering af tekstretning */
-.align-left {
+.venstre {
     text-align: left;
 }
 
-.align-right {
+.højre {
     text-align: right;
 }
 

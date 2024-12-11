@@ -88,18 +88,18 @@
   }
 
   /* Fjerner checkbox felt*/
-  .menu-toggle {
+  .menu-knap {
     display: none;
 
   }
   
   /* Når burgeren er markeret, vises menuen */
-  .menu-toggle:checked + .burger-menu + .nav-links {
+  .menu-knap:checked + .burger-menu + .nav-links {
     display: flex;
   }
 
   /* Juster burger-menuen, når den er åben */
-  .menu-toggle:checked + .burger-menu span {
+  .menu-knap:checked + .burger-menu span {
     background-color: #007bff;
   }
   
