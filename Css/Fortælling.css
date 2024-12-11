@@ -89,7 +89,7 @@ article{
 
 /*Media for tablet*/
 /*Jeg har på denne side valgt at lave tablet mediaet mindre, da det gav mening ift mine kolonner */
-@media only screen and (min-width: 801px) and (max-width: 1200px) {
+@media only screen and (min-width: 850px) and (max-width: 1200px) {
 
     /* Styling af overskrifter */
 h1{
@@ -127,7 +127,7 @@ article{
 }
 /* Media for mobil */
 /*Jeg har derfor gjort mobil mediaet 100px større*/
-@media (max-width: 800px) {
+@media (max-width: 849px) {
 
     /* Styling af overskrifter */
 h1{
