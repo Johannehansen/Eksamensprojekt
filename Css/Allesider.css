@@ -58,83 +58,82 @@
   border-radius: 100px;
 }
 
-  /* Logo */
-  .Logo {
-    flex: 1; /* Sørger for at logo har samme størrelse som søgefletet*/
-    align-items: center;
-    margin-left: -130px; /* Sørger for at logo ligger sig i midten*/
+/* Logo */
+.Logo {
+  flex: 1; /* Sørger for at logo har samme størrelse som søgefletet*/
+  align-items: center;
+  margin-left: -130px; /* Sørger for at logo ligger sig i midten*/
   }
   
-  .Logo img {
-    max-width: 150px; 
-    height: auto;
+.Logo img {
+  max-width: 150px; 
+  height: auto;
   }
   
-  /* Burger-menu */
-  .burger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25px;
-    height: 20px;
-    cursor: pointer;
+/* Burger-menu */
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
   }
   
-  .burger-menu span {
-    background-color: #371042;
-    height: 3px;
-    border-radius: 3px;
+.burger-menu span {
+  background-color: #371042;
+  height: 3px;
+  border-radius: 3px;
   }
   
-  /* Navigation Links */
-    .nav-links {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;  
-    align-items: center;   
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    background-color: #4f2c8c;
-    padding: 30px;
-    border-radius: 5px;
-    list-style: none;
-    }
-  
-  .nav-links li {
-    margin: 20px;
+/* Navigation Links */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;  
+  align-items: center;   
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: #4f2c8c;
+  padding: 30px;
+  border-radius: 5px;
+  list-style: none;
   }
+  
+.nav-links li {
+  margin: 20px;
+}
 
-  .nav-links li li a {
-    text-decoration: none;
-  }
+.nav-links li li a {
+  text-decoration: none;
+}
   
-  .nav-links a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
   
-  .nav-links a:hover {
-    color: #371042; /* Ændre farven på links når de hoveres */
-  }
+.nav-links a:hover {
+  color: #371042; /* Ændre farven på links når de hoveres */
+}
 
-  /* Fjerner checkbox felt*/
-  .menu-knap {
-    display: none;
-
-  }
+/* Fjerner checkbox felt*/
+.menu-knap {
+  display: none;
+}
   
-  /* Når burgeren er markeret, vises menuen */
-  .menu-knap:checked + .burger-menu + .nav-links {
-    display: flex;
-  }
+/* Når burgeren er markeret, vises menuen */
+.menu-knap:checked + .burger-menu + .nav-links {
+  display: flex;
+}
 
-  /* Juster burger-menuen, når den er åben */
-  .menu-knap:checked + .burger-menu span {
-    background-color: #007bff;
-  }
+/* Juster burger-menuen, når den er åben */
+.menu-knap:checked + .burger-menu span {
+   background-color: #007bff;
+}
   
 
 
@@ -142,6 +141,7 @@
   display: flex;
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif, sans-serif;
+  line-height: 2;
   background-color: #371042;
   color: #fff;
   margin-top: 5%;
@@ -174,7 +174,7 @@
 #Instaface{
   width: 100px;
   height: auto;
-  margin-top: 1% ;
+  margin-top: 5% ;
 }
 
 
