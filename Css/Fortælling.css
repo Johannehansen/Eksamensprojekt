@@ -186,11 +186,5 @@ article{
     gap: 5%;
 }
 
-#Lassedanser{
-    width: 90%;
-    height: auto;
-    display: flexbox;
-    flex-direction: column;
-    gap: 10px;
-}
+
 }

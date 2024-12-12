@@ -4,7 +4,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e1e6e1;
   }
+
+/* Gør Navigationsbaren den korrekte farve på forsiden*/
+.navbar {
+    background-color: #371042;
+  }
   
+/* Gør burgerbaren den korrekte farve på forsiden*/
+.burger-menu span {
+    background-color: #ffff;
+    height: 3px;
+    border-radius: 3px;
+  }
+
 /* Skjuler lille logo*/
 .Logo img {
     display: none;
@@ -19,6 +31,22 @@ body {
     width: 50%;
     height: auto;
 }
+
+/* animation der får logo til at slide ind*/
+img.slide {
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: slideIn 2.5s ease-out forwards;
+}
+  
+@keyframes slideIn {
+    to {
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
+
+
 
 /* Styler begge guitar billeder*/
 .Guitar{
@@ -51,7 +79,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    background-color: #5E2B8A;
+    background-color: #4f2c8c;
     padding-bottom: 2%;
     padding-top: 2%;
 }
@@ -117,6 +145,16 @@ body {
 
 /* Responsivt design */
 @media (max-width: 700px) {
+
+    /* Styler stort logo*/
+    #Stortlogo{
+        margin-top: 7%;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: auto;
+}
 
     .Forsidebilleder{
         flex-direction: column;

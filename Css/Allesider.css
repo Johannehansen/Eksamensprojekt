@@ -57,24 +57,6 @@
   color: #ffffff;
   border-radius: 100px;
 }
-  
-  /* Søgefelt */
-  .søge-container {
-    display: flex;
-    justify-content: flex-start;
-    flex: 1;
-  }
-  
-  .søge-input {
-    width: 100%;
-    max-width: 60px; /* Juster størrelsen på søgefeltet */
-    padding: 8px;
-    font-size: 16px;
-    border: 2px solid #371042;
-    background-color: #371042;
-    color: #ffffff;
-    border-radius: 200px;
-  }
 
   /* Logo */
   .Logo {
