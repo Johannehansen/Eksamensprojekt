@@ -6,6 +6,57 @@
     padding: 20px;
     background-color: #ffffff;
   }
+
+/* Overordnet styling */
+.søge-container {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+/* Forstørrelsesglas ikon */
+.søge-ikon {
+  font-size: 200%; /* Størrelse på ikonet */
+  cursor: pointer;
+  display: flexbox;
+}
+
+.søge-ikon:hover {
+  transform: scale(1.5); /* Gør ikonet større ved hover */
+}
+
+/* Skjul søgefeltet som standard */
+.søge-felt {
+  width: 0;
+  height: auto; /* breddden på søgefeltet*/
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Checkbox (skjult) */
+.visning {
+  display: none;
+}
+
+/* Når checkboxen er tændt */
+.visning:checked ~ .søge-felt {
+  width: 100%; /* Søgfeltets bredde */
+  display: flex;
+  margin-top: 1.5%; /* retter søgefeltet til så det står korekt udfra forstørrelsesikon */
+  margin-left: 4%;/* retter søgefeltet til så det står korekt udfra forstørrelsesikon */
+  opacity: 1; /* Gør Søgfeltet synligt */
+  width: 100%;
+  max-width: 10%; /* Justere størrelsen på søgefeltet */
+  padding: 1%;
+  font-size: small;
+  background-color: #371042;
+  color: #ffffff;
+  border-radius: 100px;
+}
   
   /* Søgefelt */
   .søge-container {

@@ -10,15 +10,23 @@
 <body>
     <header>
         <nav class="navbar">
-            <!-- Søgefelt -->
             <div class="søge-container">
-              <input type="text" placeholder="SØG" class="søge-input">
+            <!-- Radio-knap til at styre visning -->
+            <input type="checkbox" id="visning" class="visning">
+  
+            <!-- Forstørrelsesglas ikon -->
+            <label for="visning" class="søge-ikon">
+             🔍
+            </label>
+  
+            <!-- Søgefelt -->
+            <input type="text" class="søge-felt" placeholder="Søg her...">
             </div>
     
           <a href="Index.html">
           <div class="Logo"> 
           <img src="Images/Final Logo.png" alt="Logo"></a>
-            </div>
+          </div>
 
           <!-- Checkbox til at styre menuen -->
           <input type="checkbox" id="menu-knap" class="menu-knap">
@@ -104,7 +112,8 @@
                 at vi fortsat kan bidrage til Aarhus kulturliv. 
             </p>
         </article>
-        <div class="farvesketion"></div>
+    
+        <!-- Donation knap opsætning  -->
         <div class="donation-container">
             <!-- Der bruges en radio button til at styre visning -->
             <input type="radio" id="donate" name="donation" class="gemt-radio">
