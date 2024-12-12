@@ -38,12 +38,13 @@ h3{
     font-size: x-large;
     color: #371042;
     text-align: center;
+    margin-bottom: -3%;
 }
 
 /* styler teksten til hver enkelte figur*/
 .tekst{
     font-family:Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-weight: normal;
     font-size: medium;
     line-height: 1.5;
     text-align: center;
@@ -180,7 +181,7 @@ h4{
     /* styler teksten til hver enkelte figur*/
     .tekst{
     font-family:Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-weight: normal;
     font-size: 75%;
     line-height: 1.5;
     text-align: center;
@@ -215,7 +216,7 @@ h4{
     #Communitymobil{
         width: 100%;
         height: auto;
-        padding-right: 4%; 
+        padding-right:2%; 
     }
 
     /* Styling for den store overskrift */
