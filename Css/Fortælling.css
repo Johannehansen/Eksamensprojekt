@@ -81,10 +81,21 @@ article{
 }
 
 #Lassedanser{
-    width: 47%;
-    height: auto;
-    display: flexbox;
+    width: 28%;
+    height: 5%;
+}
 
+#Noder-igen{
+    width: 15%;
+    height: auto;
+    padding-right: 10%;
+}
+
+.Lassedanser{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 1%;
+    margin-top: 5%;
 }
 
 /*Media for tablet*/
@@ -186,5 +197,20 @@ article{
     gap: 5%;
 }
 
+#Lassedanser{
+    width: 48%;
+    height: auto;
+}
+
+#Noder-igen{
+    display: none;
+}
+
+.Lassedanser{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: -1%;
+}
 
 }
