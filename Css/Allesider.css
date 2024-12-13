@@ -1,11 +1,11 @@
 
   /* Navbar */
-  .navbar {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: #ffffff;
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
 
 /* Overordnet styling */
 .søge-container {
@@ -32,7 +32,7 @@
   padding: 0;
   border: 0;
   overflow: hidden;
-  position: absolute;
+  position: relative; /* Søgefeltet bliver samme sted på siden i alle formater*/
   top: 0;
   left: 0;
 }
@@ -46,8 +46,7 @@
 .visning:checked ~ .søge-felt {
   width: 100%; /* Søgfeltets bredde */
   display: flex;
-  margin-top: 1.5%; /* retter søgefeltet til så det står korekt udfra forstørrelsesikon */
-  margin-left: 4%;/* retter søgefeltet til så det står korekt udfra forstørrelsesikon */
+  margin-left: 2%;/* retter søgefeltet til så det står korekt udfra forstørrelsesikon */
   opacity: 1; /* Gør Søgfeltet synligt */
   width: 100%;
   max-width: 10%; /* Justere størrelsen på søgefeltet */
@@ -64,22 +63,23 @@
   align-items: center;
   margin-left: -130px; /* Sørger for at logo ligger sig i midten*/
   }
-  
 .Logo img {
-  max-width: 150px; 
+  max-width: 150px; /* Styrer logo størrelse*/
   height: auto;
   }
   
 /* Burger-menu */
+/* Gør burgermenuen synlig på siden*/
 .burger-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   justify-content: space-between;
   width: 25px;
   height: 20px;
   cursor: pointer;
   }
   
+/* Giver burgermenuen de korrekt farver og mål */
 .burger-menu span {
   background-color: #371042;
   height: 3px;
@@ -88,34 +88,41 @@
   
 /* Navigation Links */
 .nav-links {
+  position: relative; 
+  z-index: 10; /* Sørger for at burgermenuen har et højere z index end det store radar logo, således at den udfolder sig foran */
   display: none;
   flex-direction: column;
-  justify-content: space-between;  
-  align-items: center;   
+  align-items: start;   
   position: absolute;
-  top: 70px;
-  right: 20px;
+  top: 9%;/* Burgermenuen ligger korrekt på siden når den udfoldes*/
+  right: 1%;/* Burgermenuen ligger korrekt på siden når den udfoldes*/
   background-color: #4f2c8c;
-  padding: 30px;
+  padding: 2%;
   border-radius: 5px;
-  list-style: none;
+  list-style: none; /* Fjerner prikker ud fra links*/
   }
   
+/* Giver hvert link/artikel den korrekte størrelse når menuen displayes*/
 .nav-links li {
-  margin: 20px;
-}
-
-.nav-links li li a {
-  text-decoration: none;
+  margin: 15px;
 }
   
+/* Giver hvert link/artikel den korrkete tekst og farve */
 .nav-links a {
-  text-decoration: none;
+  text-decoration: none;/* Fjerner linjen under links*/ 
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 100%;
 }
-  
+
+/* Sørger for at der er forskel på artikel overskrift og under-overskrift*/
+.nav-links a p {
+  font-size: small;
+  font-style: oblique;
+  margin-top: -1%;
+}
+
+/* Laver hover effekt på link/artikler når burgeren er udfoldet*/
 .nav-links a:hover {
   color: #371042; /* Ændre farven på links når de hoveres */
 }
@@ -132,7 +139,7 @@
 
 /* Juster burger-menuen, når den er åben */
 .menu-knap:checked + .burger-menu span {
-   background-color: #007bff;
+   background-color: #4f2c8c;
 }
   
 
@@ -181,6 +188,14 @@
 /*Media for tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
 
+  /* Forstørrelsesglas ikon */
+  .søge-ikon {
+    font-size: 150%; /* Størrelse på ikonet */
+    cursor: pointer;
+    display: flexbox;
+    }
+
+
   .footer-sektion {
   display: flex;
   flex-direction: column; /* Laver en lodret stak af h2 og p */
@@ -212,14 +227,26 @@
   padding-bottom: 8%;
   }
 
-  .search-input {
-  width: 50%;
-  max-width: 20px; /* Juster størrelsen på søgefeltet */
-  padding: 8px;
-  font-size: 8px;
-  border: 2px solid #371042;
+  /* Forstørrelsesglas ikon */
+  .søge-ikon {
+  font-size: 100%; /* Størrelse på ikonet */
+  cursor: pointer;
+  display: flexbox;
+  }
+
+  .søge-ikon:hover {
+  transform: scale(1); /* Gør ikonet større ved hover */
+  }
+
+  /* Når checkboxen er tændt */
+  .visning:checked ~ .søge-felt {
+  width: 100%; /* Søgfeltets bredde */
+  display: flex;
+  margin-left: 2%;/* retter søgefeltet til så det står korekt udfra forstørrelsesikon */
+  opacity: 1; /* Gør Søgfeltet synligt */
+  max-width: 20%; /* Justere størrelsen på søgefeltet */
+  font-size: x-small; /* Gør teksten mindre i mobilformat */
   background-color: #371042;
   color: #ffffff;
-  border-radius: 200px;
   }
 }

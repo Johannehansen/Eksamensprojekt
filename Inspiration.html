@@ -19,8 +19,12 @@
 </head>
 <body>
     <header>
+        <!--navigations bar-->
         <nav class="navbar">
+
+            <!--Søgecontainer-->
             <div class="søge-container">
+
                 <!-- Radio-knap til at styre visning -->
                 <input type="checkbox" id="visning" class="visning">
       
@@ -32,7 +36,8 @@
                 <!-- Søgefelt -->
                 <input type="text" class="søge-felt" placeholder="Søg her...">
             </div>
-    
+
+          <!-- Logo indsat som ikon i navbaren, og gjort således at den linker tilbage til forsiden -->
           <a href="Index.html">
           <div class="Logo"> 
           <img src="Images/Final Logo.png" alt="Logo"></a>
@@ -48,9 +53,9 @@
     
           <!-- Navigation links -->
           <ul class="nav-links">
-            <li><a href="Inspiration.html">Inspiration</a></li>
-            <li><a href="Fortælling.html">Fortælling</a></li>
-            <li><a href="Fællesskab.html">Fællesskab</a></li>
+            <li><a href="Inspiration.html">Inspiration - <br> <p>Til dig der leder efter <br> en grund til at komme</p></a></li>
+            <li><a href="Fortælling.html">Fortælling - <br> <p>Om radars relevans <br>  for unge og kulturliv</p> </a></li>
+            <li><a href="Fællesskab.html">Fællesskab - <br> <p>Støt radar og <br> bliv en del af os </p></a></li>
           </ul>
         </nav>
       </header>
@@ -58,8 +63,11 @@
     
     <!-- Guitar illustration -->
     <img src="Images/Startguitar.png" alt="Startguitar" class="Guitar">
+
         <!-- Forside tekst & billde -->
         <div class="Inspirationstekst">
+
+            <!-- Billede af forksellige workshop muligheder -->
             <img src="Images/Workshops.png" alt="Radar facade" id="Workshop">
             <p>
             Mangler du inspiration til hvorfor du skulle foretage 
@@ -96,12 +104,14 @@
             </h3>
         </section>
 
-        <!-- Nyhedsbrev -->
+        <!-- sektion brugt til Nyhedsbrev -->
         <section class="nyhedsbrev">
             <h2>Vil du høre når der er nyt fra os?</h2>
             <p>
                 Skriv dig op til vores nyhedsbrev herunder, så skal vi nok opdatere dig om alle vores spændende arrangementer i fremtiden!
             </p>
+
+            <!-- form brugt til at lave det korrekte email format-->
             <form class="nyhedsbrev-form">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Indtast din email" required>

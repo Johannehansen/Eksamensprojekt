@@ -38,15 +38,12 @@ img.slide {
     opacity: 0;
     animation: slideIn 2.5s ease-out forwards;
 }
-  
 @keyframes slideIn {
     to {
     transform: translateX(0);
     opacity: 1;
     }
 }
-
-
 
 /* Styler begge guitar billeder*/
 .Guitar{
@@ -67,13 +64,7 @@ img.slide {
     display: flex;
 }
 
-
-/*styling af artikler*/
-.artikler {
-    width: 100%;
-    margin: auto;
-}
-
+/*styling artikler således at de står korrekt på siden og har den korrekte baggrundsfarve*/
 .sektion {
     display: flex;
     justify-content: space-between;
@@ -84,7 +75,7 @@ img.slide {
     padding-top: 2%;
 }
 
-
+/* Styling af artiklernes overskrifter */
 .sektion h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -94,6 +85,7 @@ img.slide {
     padding-right: 5%;
 }
 
+/* Styling af selve tekst indholdet i artiklerne */
 .sektion p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -104,6 +96,8 @@ img.slide {
 
 }
 
+/*  Sørger for at billede og artikel ylder det samme, når det 
+flexes ved siden af hinanden */
 .sektion .tekst {
     flex: 1;
     padding: px;
@@ -114,6 +108,7 @@ img.slide {
     text-align: center;
 }
 
+/* Justering af selve billedet størrelse og synlighed */
 .sektion .billede img {
     width: 80%;
     height: auto;
@@ -148,6 +143,8 @@ img.slide {
 
     /* Styler stort logo*/
     #Stortlogo{
+        position: relative;
+        z-index: 1; /* Sørger for at Logo har et lavere z index end den udfoldede burgermenu, således at den ligger sig bag */
         margin-top: 7%;
         margin-bottom: 2%;
         margin-left: 10%;
@@ -156,6 +153,8 @@ img.slide {
         height: auto;
 }
 
+    /* Styler forside billeder og  artikler således at de passer til et 
+    mobil format */
     .Forsidebilleder{
         flex-direction: column;
         width: 100%;
