@@ -61,7 +61,8 @@ img.slide {
 }
 
 .Forsidebilleder{
-    display: flex;
+    display:flex;
+    justify-content: space-between;
 }
 
 /*styling artikler således at de står korrekt på siden og har den korrekte baggrundsfarve*/
@@ -155,6 +156,11 @@ flexes ved siden af hinanden */
 
     /* Styler forside billeder og  artikler således at de passer til et 
     mobil format */
+
+    #Forsidebillede{
+        width: 90%;
+        height: auto;
+    }
     .Forsidebilleder{
         flex-direction: column;
         width: 100%;
