@@ -1,7 +1,7 @@
 /* Grundlæggende stil for body */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     background-color: #e1e6e1;
   }
 
@@ -15,7 +15,7 @@ h1{
     margin-bottom: -8%;
 }
 
-/* Styling for illustartionen af fællesskab */
+/* Styling for illustrationen af fællesskab */
 #Illustrationcommunity{
     width: 95%;
     height: auto;
@@ -23,7 +23,7 @@ h1{
     margin-bottom: -5%;
 }
 
-/* sørger for at illustrationer fordeler sig korrekt på siden */
+/* Sørger for at hele sektionen med de mindre figure og tekst fordeler sig korrekt på siden */
 .Figure{
     width: 100%;
     height: auto;
@@ -32,7 +32,7 @@ h1{
     align-items: start;
 }
 
-/* styler på overskrifterne*/
+/*Styler på overskrifterne til hver enkelte figur*/
 h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
@@ -42,7 +42,7 @@ h3{
 }
 
 /* styler teksten til hver enkelte figur*/
-.tekst{
+.tekst {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: medium;
@@ -66,7 +66,7 @@ h3{
     height: auto;
 }
 
-/* Styling tekst kolonner og overskrift under figuren */
+/* Styling af tekst kolonner og overskrift under den store illustration og figurere */
 .Tekster{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
@@ -76,15 +76,14 @@ h3{
     padding-left: 5%;
     padding-right: 5%;
 }
-
 h4{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/* Her sørges der for at overskriften til koloonerne får den korrekte font */
     font-size: xx-large;
     color: #371042;
     text-align: center;
 }
 
-/* Grundopsætning */
+/* Grundopsætning af donationssystemet*/
 .donation-container {
     display: flex;
     flex-direction: column;
@@ -135,7 +134,7 @@ h4{
   
   /* Takkebesked styling */
   .takkebesked {
-    display: none;
+    display: none;  /* sørger for at takkebeskeden er gemt*/
     font-size: xxx-large;
     color: #371042;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -150,7 +149,7 @@ h4{
   .gemt-radio:checked ~ .donation-form {
     display: none; /* Skjul formularen */
   }
-   /* I stedet kommer takkebeskeden frem*/
+   /* Sørger for at takkebeskeden ikke længere er gemt når der trykkes på knappen*/
   .gemt-radio:checked ~ .takkebesked {
     display: block; /* Vis takkebeskeden */
   }
@@ -160,7 +159,7 @@ h4{
   /*Media for tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
 
-    /* sørger for at illustrationer fordeler sig korrekt på siden */
+    /* sørger for at illustrationer fordeler sig korrekt på siden i tablet format */
     .Figure{
     width: 100%;
     height: auto;
@@ -169,7 +168,7 @@ h4{
     align-items: start;
 }
 
-    /* styler på overskrifterne*/
+    /* styler på overskrifterne til figurene*/
     h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
@@ -193,13 +192,12 @@ h4{
     .Tekster{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
-    display: block;
+    display: block; /* her gøres det sådan at tekststykkerne ligger sig under hinanden i stedet for at de flexes ved siden*/
     justify-content: center;
     gap: 10%;
     padding-left: 5%;
     padding-right: 5%;
 }
-
     h4{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
@@ -234,13 +232,13 @@ h4{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  /* Gør så figurene flexes ui en kolonne i stedet for en række */
     margin-top: 10%;
     justify-content: space-evenly;
     align-items: center;
 }
 
-    /* styler på overskrifterne*/
+    /* styler på overskrifterne til figurene*/
     h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
@@ -252,7 +250,7 @@ h4{
     .tekst{
     font-family:Arial, Helvetica, sans-serif;
     font-size: medium;
-    font-weight: lighter;
+    font-weight: lighter;/* Gør teksten tyndere*/
     line-height: 1.5;
     text-align: center;
     margin-bottom: 10%;
@@ -279,7 +277,7 @@ h4{
     .Tekster{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
-    display:block;
+    display:block; /* her gøres det igen sådan at tekststykkerne ligger sig under hianden i stedet for at de flexes ved siden*/
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;

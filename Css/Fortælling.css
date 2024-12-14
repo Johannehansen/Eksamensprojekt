@@ -1,7 +1,7 @@
 /* Grundlæggende stil for body */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     background-color: #e1e6e1;
   }
 
@@ -40,7 +40,7 @@ section{
     font-style: oblique;
 }
 
-
+/* styler hele artiklen således at den er ens hele vejen igennem, samt flexes korrekt*/
 article{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -51,23 +51,27 @@ article{
     margin-right: 5%; /* sørger for at det er centreret med de andre tekster */
 }
 
+/* styler de to stykker under over & under-overskrifterne & sørger for at det er centreret med de andre tekster*/
 .broedtekst{
-    margin-left: -5%;/* sørger for at det er centreret med de andre tekster */
-    margin-right: 6%;/* sørger for at det er centreret med de andre tekster */
+    margin-left: -5%;
+    margin-right: 6%;
 }
 
+/* sørger for at billedet af Lasse der spiller guitar står korrekt og er den rigige størrelse*/
 #Lasse{
     width: 30%;
     height: auto;
     padding-right: 5%;
 }
 
+/* sørger for at noderne står korrekt og er den rigige størrelse*/
 #Noder{
     width: 10%;
     height: auto;
     padding-left: 10%;
 }
 
+/* styler rækken af Lasse, quote og noder så det står korrekt*/
 .billedeogquote{
     display: flex;
     justify-content: start;
@@ -75,6 +79,7 @@ article{
     margin-left: -5%;
 }
 
+/* styler kolonnerne så de står korrekt*/
 .kolonner{
     display: flex;
     justify-self: space-between;
@@ -83,17 +88,20 @@ article{
     gap: 5%;
 }
 
+/* Tilpasser billederne af lasse og andre der danser*/
 #Lassedanser{
     width: 28%;
     height: 5%;
 }
 
+/* Tilpasser Noderne*/
 #Noder-igen{
     width: 15%;
     height: auto;
     padding-right: 10%;
 }
 
+/* styler billederne og noderne så de står korrekt på siden*/
 .Lassedanser{
     display: flex;
     justify-content: space-evenly;
@@ -106,66 +114,69 @@ article{
 @media only screen and (min-width: 850px) and (max-width: 1200px) {
 
     /* Styling af overskrifter */
-h1{
+    h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     color: #371042;
     padding-left: 5%;
-}
-
-h3{
+    }
+    h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
     color: #371042;
     padding-left: 5%;
-}
+    }
 
-section{
+    /* Styling af tekststykke under over & under-overskrifter så det passer til media formatet*/
+    section{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: medium; /* skriftstørrelsen mindskes*/
     font-weight: bold;
     color: #371042;
     padding-left: 5%;
-}
-article{
+    }
+
+    /* Styling af hele artiklen så den passer til media formatet*/
+    article{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: small;/* skriftstørrelsen mindskes*/
     line-height: 1.8;
     color: #000;
     padding-left: 5%;
     display: flexbox;
     margin-right: 5%;
-    
+    }
 }
 
-}
 /* Media for mobil */
 /*Jeg har derfor gjort mobil mediaet 100px større*/
 @media (max-width: 849px) {
 
     /* Styling af overskrifter */
-h1{
+    h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     color: #371042;
     padding-left: 5%;
-}
-
-h3{
+    }
+    h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
     color: #371042;
     padding-left: 5%;
-}
+    }
 
-section{
+    /* Styling af tekststykke under over & under-overskrifter så det passer til media formatet*/
+    section{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     font-weight: bold;
     color: #371042;
     padding-left: 5%;
-}
-article{
+    }
+
+    /* Styling af hele artiklen så den passer til media formatet*/
+    article{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     line-height: 1.8;
@@ -173,46 +184,51 @@ article{
     padding-left: 5%;
     display: flexbox;
     margin-right: 5%;
-}
+    }
 
-.billedeogquote{
+    /* Styling af rækken med billede, quote og noder så det ligger sig under hinanden*/
+    .billedeogquote{
     display: block;
     justify-content: center;
     align-items: center;
-}
+    }
 
-#Lasse{
+    /* Styling af billede så det fylder media formatet ud*/
+    #Lasse{
     width: 90%;
     height: auto;
     padding-right: 5%;
-}
+    }
 
-#Noder{
+    /* Styling af noder så de passer til media formatet ud*/
+    #Noder{
     width: 10%;
     height: auto;
     padding-left: 70%;
     margin-top: -40%;
-}
+    }
 
-.kolonner{
+    /* Styling af kolonner så de ligger sig under, i stedet for ved siden af hinanden*/
+    .kolonner{
     display: block;
     margin-left: -5%;/* sørger for at det er centreret med de andre tekster */
     gap: 5%;
-}
+    }
 
-#Lassedanser{
+    /* Styling af billede og noder så passer til media formatet*/
+    #Lassedanser{
     width: 48%;
     height: auto;
-}
-
-#Noder-igen{
+    }
+    #Noder-igen{
     display: none;
-}
+    }
 
-.Lassedanser{
+    /* sørger for at billeder og noder ligger korrekt*/   
+    .Lassedanser{
     display: flex;
     justify-content: space-around;
     align-items: start;
     margin-left: -1%;
-}
+    }
 }
