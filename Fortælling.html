@@ -20,20 +20,22 @@
 </head>
 <body>
     <header>
+         <!--Navigationsbaren-->
         <nav class="navbar">
+
+             <!--Søgecontainrt-->
             <div class="søge-container">
                 <!-- Radio-knap til at styre visning -->
                 <input type="checkbox" id="visning" class="visning">
-      
                 <!-- Forstørrelsesglas ikon -->
                 <label for="visning" class="søge-ikon">
                  🔍
                 </label>
-      
-                <!-- Søgefelt -->
+                <!-- selve Søgefeltet -->
                 <input type="text" class="søge-felt" placeholder="Søg her...">
             </div>
-    
+            
+          <!-- Logo indsat som ikon i navbaren, og gjort således at den linker tilbage til forsiden -->
           <a href="Index.html">
           <div class="Logo"> 
           <img src="Images/Final Logo.png" alt="Logo"></a>
@@ -65,15 +67,17 @@
     <h3>
         "Musik har altid haft en særlig kraft, men for Lasse har det været en livsændrende rejse"
     </h3>
+    <!-- undersketion til overskrifter-->
     <section>
         Dette er en fortælling fra en ung mand, der kæmpede med ADHD og social
         angst, men fandt sig selv gennem fællesskabet og passionen for den unikke 
         musik på Radar. 
     </section>
 
-    <!-- selve artiklen opdelt i div så afsnit kan redigeres -->
+    <!-- selve artiklen opdelt i article class & div classes så afsnit kan redigeres -->
     <article>
     <article class="broedtekst">
+    <!-- der bruges div class til skråtekststykke -->
     <div class="skraetekst">
         <p>
             "Radar er ikke bare et spillested; det er en platform for personlig udvikling og kreativtsamvær.
@@ -90,8 +94,11 @@
 
         </p>
     </article>
-    <div class="billedeogquote">
+
+    <!-- der bruges section class til at definere hele rækken med billede, quote og noder -->
+    <section class="billedeogquote">
     <img src="Images/Lasse.jpg" alt="billede af Lasse" id="Lasse">
+    <!-- der bruges igen div class til skråtekststykke -->
     <div class="skraetekst">
         <p>
         "Musikken og de mennesker, jeg har mødt her,<br> 
@@ -99,8 +106,9 @@
         </p>
     </div>
     <img src="Images/Noder.png" alt="Noder" id="Noder">
-    </div>
+    </section>
 
+    <!-- der bruges section class til at definere rækken med de tre kolonner -->
     <article class="kolonner">
             <p>
             Lasses historie viser, hvordan kulturhuse 
@@ -114,6 +122,7 @@
             platform, der giver mulighed for at overkomme 
             sociale barrierer og finde nye perspektiver. 
             </p>
+        <!-- der bruges igen div class til skråtekststykke -->
         <div class="skraetekst">
             <p>
             “Jeg endte med at udvikle min passion for musik 
@@ -135,15 +144,16 @@
             der styrker både kreativitet og sociale evner. Så uanset om du er ny 
             eller erfaren musikerelsker, er Radar en mulighed for at 
             finde dig selv gennem musikkens magi.
-
             </p>
     </article>
-    <div class="Lassedanser">
+
+    <!-- der bruges igen div class til skråtekststykke -->
+    <section class="Lassedanser">
     <img src="Images/Noder.png" alt="Noder" id="Noder-igen">
     <img src="Images/Lassedanser.jpg" alt="Lasse danser" id="Lassedanser">
     
     <img src="Images/Lassedanser2.jpg" alt="Lasse headbanger" id="Lassedanser">
-    </div>
+    </section>
     </article>
 
     <!-- Guitar illustration fortsat-->

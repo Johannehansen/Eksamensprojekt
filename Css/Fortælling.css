@@ -11,14 +11,13 @@ body {
     height: auto;
 }
 
-/* Styling af overskrifter */
+/* Styling af over & under-overskrifter */
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     color: #371042;
     padding-left: 5%;
 }
-
 h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
@@ -26,6 +25,7 @@ h3{
     padding-left: 5%;
 }
 
+/* Styling af tekststykke under over & under-overskrifter*/
 section{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -35,9 +35,11 @@ section{
     margin-right: 10%;
 }
 
+/* Sørger for at skråtekststykker har den korrekte font*/
 .skraetekst{
     font-style: oblique;
 }
+
 
 article{
     font-family: Arial, Helvetica, sans-serif;
@@ -70,6 +72,7 @@ article{
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-left: -5%;
 }
 
 .kolonner{
