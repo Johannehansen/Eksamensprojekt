@@ -7,6 +7,7 @@
   background-color: #ffffff;
 }
 
+/* Her er et link til min smatale med chatgpt, da den hjalp mig med at få gjort mit søgefelt til et forstørrelsesglas ikon: https://chatgpt.com/share/675abdc7-9980-800a-a002-063226dc68f3*/
 /* Overordnet styling */
 .søge-container {
   display: flex;
@@ -42,6 +43,7 @@
   display: none;
 }
 
+
 /* Når checkboxen er tændt */
 .visning:checked ~ .søge-felt {
   width: 100%; /* Søgfeltets bredde */
@@ -61,10 +63,9 @@
 .Logo {
   flex: 1; /* Sørger for at logo har samme størrelse som søgefletet*/
   align-items: center;
-  margin-left: -130px; /* Sørger for at logo ligger sig i midten*/
   }
 .Logo img {
-  max-width: 150px; /* Styrer logo størrelse*/
+  max-width: 10%; /* Styrer logo størrelse*/
   height: auto;
   }
   
@@ -188,6 +189,16 @@
 /*Media for tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
 
+  /* Logo */
+  .Logo {
+  flex: 1; /* Sørger for at logo har samme størrelse som søgefletet*/
+  align-items: center;
+  }
+  .Logo img {
+  max-width: 15%; /* Styrer logo størrelse*/
+  height: auto;
+  }
+
   /* Forstørrelsesglas ikon */
   .søge-ikon {
     font-size: 150%; /* Størrelse på ikonet */
@@ -219,6 +230,16 @@
 
 /* Media for mobiltelefoner */
 @media (max-width: 700px) {
+
+  /* Logo */
+    .Logo {
+    flex: 1; /* Sørger for at logo har samme størrelse som søgefletet*/
+    align-items: center;
+    }
+    .Logo img {
+    max-width: 20%; /* Styrer logo størrelse*/
+    height: auto;
+    }
 
   .footer{
   flex-direction: column;
