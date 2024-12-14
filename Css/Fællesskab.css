@@ -23,46 +23,49 @@ h1{
     margin-bottom: -5%;
 }
 
+
 /* Sørger for at hele sektionen med de mindre figure og tekst fordeler sig korrekt på siden */
 .Figure{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: start;
 }
 
 /*Styler på overskrifterne til hver enkelte figur*/
-h3{
+h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     color: #371042;
     text-align: center;
-    margin-bottom: -3%;
+    
 }
 
 /* styler teksten til hver enkelte figur*/
 .tekst {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: medium;
     line-height: 1.5;
     text-align: center;
     display: flexbox;
-    justify-content: center;
+   
 }
 
 /* Konkret styling af hver Figur */
 #Pin{
-    width: 33.3%;
+    width: 33%;
+    max-width: 600px;
     height: auto;
 }
 #Mand{
-    width: 33.3%;
+    width: 33%;
+    max-width: 600px;
     height: auto;
 }
 #Ur{
-    width: 33.3%;
+    width: 33%;
+    max-width: 600px;
     height: auto;
 }
 
@@ -76,7 +79,7 @@ h3{
     padding-left: 5%;
     padding-right: 5%;
 }
-h4{
+h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/* Her sørges der for at overskriften til koloonerne får den korrekte font */
     font-size: xx-large;
     color: #371042;
@@ -169,7 +172,7 @@ h4{
 }
 
     /* styler på overskrifterne til figurene*/
-    h3{
+    h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
     color: #371042;
@@ -181,7 +184,7 @@ h4{
     .tekst{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 75%;
+    font-size: 60%;
     line-height: 1.5;
     text-align: center;
     display: flexbox;
@@ -198,7 +201,7 @@ h4{
     padding-left: 5%;
     padding-right: 5%;
 }
-    h4{
+    h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     color: #371042;
@@ -239,7 +242,7 @@ h4{
 }
 
     /* styler på overskrifterne til figurene*/
-    h3{
+    h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     color: #371042;

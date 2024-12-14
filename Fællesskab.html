@@ -61,31 +61,44 @@
 
 <!-- Der bruges main til hoveddelen af siden -->
     <main>
+    
+        <!--største overskrift i starten -->
         <h1>
             BLIV EN DEL AF RYTMEN & FÆLLESKABET <br>
             BLIV FRIVILLIG
         </h1>
+
+        <!--Der bruges et picture element til at kunne skifte mellem illustration til laptop/tablet og mobil-->
         <picture>
+            <!--Her indsættes billede til mobil, hvor den gives en media max width som gør at den vil vise sig når mediaet er mellem 0-700px-->
             <source srcset="Images/Illustrationcommunitymobil.png" id="Communitymobil" media="(max-width: 700px)" >
+            <!--Her kommer det billeder der viser sig når mediaet er alt over 700px-->
             <img src="Images/Illustrationcommunity.png" alt="Illustration af et frivillig fællesskab" id="Illustrationcommunity">
         </picture>
+
+        <!--Der bruges en section class til at definere alle figure samt tekststykkerne under-->
         <section class="Figure">
+            <!--Derefter bruger jeg en div class hvor jeg kun sætter alle tekststykkerne i-->
             <div class="tekst">
-            <img src="Images/Pin.jpg" alt="Hvor" id="Pin">
-            <h3>
+            <img src="Images/Pin.webp" alt="Hvor" id="Pin"> <!--Og giver hver figur en individuel id--->
+            <h2>
                 HVOR?
-            </h3>
+            </h2>
             <p>
                 Vi holder til i det kreative hjerte Aarhus,<br>
                 nemlig ved godsbanen på adressen<br>
                 Karen Wegeners gade 6, Aarhus C
             </p>
+            <!--Dette gør at jeg kan style overskrifter, tekststykker og figurer individuelt og sammen-->
             </div>
+
+            <!--processen ovenover gentages ved de andre figure og tekststykker, så de også hver kommer i korrekte div classes
+            og hver figur får hver deres id-->
             <div class="tekst">
-            <img src="Images/Mand.jpg" alt="Hvem" id="Mand">
-            <h3>
+            <img src="Images/Mand.webp" alt="Hvem" id="Mand">
+            <h2>
                 HVEM?
-            </h3>
+            </h2>
             <p>
                 Du elsker musik, kultur og fællesskab.<br> 
                 Du vil gerne være en del af et sted, der<br>
@@ -94,11 +107,13 @@
                 din tid til et projekt, der gør en forskel.
             </p>
             </div>
+
+            <!--og igen gentages processen ovenover-->
             <div class="tekst">
-            <img src="Images/Ur.jpg" alt="Hvornår" id="Ur">
-            <h3>
+            <img src="Images/Ur.webp" alt="Hvornår" id="Ur">
+            <h2>
                 HVORNÅR?
-            </h3>
+            </h2>
             <p>
                 Du vælger selv dine vagter! Vær med til <br>
                 koncerter, workshops eller planlægning <br>
@@ -106,9 +121,13 @@
             </p>
             </div>
         </section>
-        <h4>
+
+        <!--Ny overskrift til sidste lille artikel/tesktsykke på siden-->
+        <h3>
             HVAD KAN DU ELLERS GØRE?
-        </h4>
+        </h3>
+
+        <!--Teksten sættes i en article class, og deles i to paragraffer-->
         <article class="Tekster">
             <p>
                 Er du presset på tid med arbejde, skole og andre ting som forhindre dig i at 
@@ -152,21 +171,21 @@
     <!-- footer -->
     <footer class="footer">
         <div class="footer-sektion">
-            <h2>Åbningstider:</h2>
+            <h4>Åbningstider:</h4>
             <p>
             Torsdag-Lørdag: Kl. 19-23.30<br>
             Øvrige dage lukket<br>
             </p>
         </div>
         <div class="footer-sektion">
-            <h2>Adresse:</h2>
+            <h4>Adresse:</h4>
             <p>
             Karen Wegeners Gade 6<br>
             DK 8000 Aarhus C<br>
             </p>
         </div>
         <div class="footer-sektion">
-            <h2>Kontakt:</h2>
+            <h4>Kontakt:</h4>
             <p>
             Telefon: +45 86760344<br>
             Email: kontakt@radarlive.dk<br>
@@ -174,7 +193,7 @@
             </p>
         </div>
         <div class="footer-sektion">
-            <h2>Find os:</h2>
+            <h4>Find os:</h4>
             <img src="images/Insta&face.png" alt="Instaface" id="Instaface">
         </div>
     </footer>

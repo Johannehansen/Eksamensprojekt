@@ -163,7 +163,7 @@
 }
 
 /* små overskrifter til hver footer-sektion */
-.footer-sektion h2 {
+.footer-sektion h4 {
   text-align: center;
   margin: 0;
   font-size: medium;
@@ -204,7 +204,7 @@
   padding: 2%;
   }
       
-  .footer-sektion h2 {
+  .footer-sektion h4 {
   text-align: center;
   margin: 0;
   font-size: small;

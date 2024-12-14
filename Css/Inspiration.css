@@ -41,11 +41,11 @@ h1{
 #Infographic{
     width: 100%;
     height: auto;
-    margin-bottom: -2.5%;
+    margin-bottom: -2%;
 }
 
 /*Slut overskrift til infographic*/
-h3{
+h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     text-align: center;
@@ -62,7 +62,7 @@ h3{
 }
 
 /* overskrift til nyhedsbrev*/
-.nyhedsbrev h2 {
+.nyhedsbrev h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     font-weight: bold;
@@ -183,7 +183,7 @@ h3{
         color: #371042;
     }
     /*Slut overskrift til infographic tilpasset til mobil*/
-    h3{
+    h2{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: x-large;/*Mindsker størrelsen af skriften*/
         text-align: center;
@@ -192,7 +192,7 @@ h3{
         opacity: 70%;
         padding: 3%;
     }
-    /*Slut overskrift til infographic tilpasset til mobil*/
+    /*Styling af nyhedsbrev så det størrelses mæssight passer til mobil*/
     .nyhedsbrev-form input {
         width: 25%;
         padding: 1%;
