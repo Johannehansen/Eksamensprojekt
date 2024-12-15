@@ -11,7 +11,6 @@
     <meta name="robots" content="index, follow">
     <meta name="language" content="danish">
     <meta name="revisit-after" content="8 days">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Fortælling</title>
     
     <!--Link til styles sheets-->
@@ -36,9 +35,9 @@
             </div>
             
           <!-- Logo indsat som ikon i navbaren, og gjort således at den linker tilbage til forsiden -->
-          <a href="Index.html">
-          <div class="Logo"> 
-          <img src="Images/Logoikon.webp" alt="Logo"></a>
+            <div class="Logo"> 
+            <a href="Index.html">
+            <img src="Images/Logoikon.webp" alt="Logo ikon"></a>
             </div>
 
           <!-- Checkbox til at styre menuen -->
@@ -68,11 +67,11 @@
         "Musik har altid haft en særlig kraft, men for Lasse har det været en livsændrende rejse"
     </h2>
     <!-- undersketion til overskrifter-->
-    <section>
+    <div class="Undersektion">
         Dette er en fortælling fra en ung mand, der kæmpede med ADHD og social
         angst, men fandt sig selv gennem fællesskabet og passionen for den unikke 
         musik på Radar. 
-    </section>
+    </div>
 
     <!-- selve artiklen opdelt i article class & div classes så afsnit kan redigeres -->
     <article>
@@ -96,7 +95,7 @@
     </article>
 
     <!-- der bruges section class til at definere hele rækken med billede, quote og noder -->
-    <section class="billedeogquote">
+    <div class="billedeogquote">
     <img src="Images/Lasse.jpg" alt="billede af Lasse" id="Lasse">
     <!-- der bruges igen div class til skråtekststykke -->
     <div class="skraetekst">
@@ -106,7 +105,7 @@
         </p>
     </div>
     <img src="Images/Noder.png" alt="Noder" id="Noder">
-    </section>
+    </div>
 
     <!-- der bruges section class til at definere rækken med de tre kolonner -->
     <article class="kolonner">
@@ -148,11 +147,11 @@
     </article>
 
     <!-- der bruges igen section class at definere ny række med noder & to billeder -->
-    <section class="Lassedanser">
+    <div class="Lassedanser">
     <img src="Images/Noder.png" alt="Noder" id="Noder-igen">
-    <img src="Images/Lassedanser.jpg" alt="Lasse danser" id="Lassedanser">
-    <img src="Images/Lassedanser2.jpg" alt="Lasse headbanger" id="Lassedanser">
-    </section>
+    <img src="Images/Lassedanser.jpg" alt="Lasse danser" class="danser">
+    <img src="Images/Lassedanser2.jpg" alt="Lasse headbanger" class="danser">
+    </div>
     </article>
 
     <!-- Guitar illustration fortsat-->

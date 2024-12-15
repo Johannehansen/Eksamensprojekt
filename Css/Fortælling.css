@@ -26,7 +26,7 @@ h2{
 }
 
 /* Styling af tekststykke under over & under-overskrifter*/
-section{
+.Undersektion{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
@@ -74,7 +74,7 @@ article{
 /* styler rækken af Lasse, quote og noder så det står korrekt*/
 .billedeogquote{
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: center;
     margin-left: -5%;
 }
@@ -89,8 +89,8 @@ article{
 }
 
 /* Tilpasser billederne af lasse og andre der danser*/
-#Lassedanser{
-    width: 28%;
+.danser{
+    width: 30%;
     height: 5%;
 }
 
@@ -105,8 +105,7 @@ article{
 .Lassedanser{
     display: flex;
     justify-content: space-evenly;
-    margin-right: 1%;
-    margin-top: 5%;
+    margin-right: -3%;
 }
 
 /*Media for tablet*/
@@ -128,7 +127,7 @@ article{
     }
 
     /* Styling af tekststykke under over & under-overskrifter så det passer til media formatet*/
-    section{
+    .Undersektion{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium; /* skriftstørrelsen mindskes*/
     font-weight: bold;
@@ -167,7 +166,7 @@ article{
     }
 
     /* Styling af tekststykke under over & under-overskrifter så det passer til media formatet*/
-    section{
+    .Undersektion{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     font-weight: bold;
@@ -191,11 +190,12 @@ article{
     display: block;
     justify-content: center;
     align-items: center;
+    margin-left: 1%;
     }
 
     /* Styling af billede så det fylder media formatet ud*/
     #Lasse{
-    width: 90%;
+    width: 80%;
     height: auto;
     padding-right: 5%;
     }
@@ -216,8 +216,8 @@ article{
     }
 
     /* Styling af billede og noder så passer til media formatet*/
-    #Lassedanser{
-    width: 48%;
+    .danser{
+    width: 40%;
     height: auto;
     }
     #Noder-igen{
@@ -227,8 +227,8 @@ article{
     /* sørger for at billeder og noder ligger korrekt*/   
     .Lassedanser{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: start;
-    margin-left: -1%;
+    margin-left: -8%;
     }
 }

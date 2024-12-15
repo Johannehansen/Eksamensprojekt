@@ -54,7 +54,7 @@ img.slide {
 }
 
 /*styling af forsidebilleder/links til artikler*/
-#Forsidebillede{
+.Forsidebillede{
     width: 90%;
     height: auto;
     margin: 5%;
