@@ -174,13 +174,13 @@ h3{
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
 
     .Starttekst{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: medium;
-        line-height: 2.5;
-        color: #371042;
-        text-align: center;
-        margin-top:10%;
-        margin-bottom: -5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    line-height: 2.5;
+    color: #371042;
+    text-align: center;
+    margin-top:10%;
+    margin-bottom: -5%;
     }
 
     /* sørger for at illustrationer fordeler sig korrekt på siden i tablet format */
@@ -235,20 +235,20 @@ h3{
 @media (max-width: 700px) {
 
     .Starttekst{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: small;
-        line-height: 2;
-        color: #371042;
-        text-align: center;
-        margin-bottom: 5%;
-        padding-right:2%; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    line-height: 2;
+    color: #371042;
+    text-align: center;
+    margin-bottom: 5%;
+    padding-right:2%; 
     }
     
      /* Styling for illustartionen af fællesskab til mobil */
     #Communitymobil{
-        width: 100%;
-        height: auto;
-        padding-right:2%; 
+    width: 100%;
+    height: auto;
+    padding-right:2%; 
     }
 
     /* Styling for den store overskrift */
