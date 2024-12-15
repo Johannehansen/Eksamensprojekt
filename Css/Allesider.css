@@ -178,13 +178,6 @@
   
 }
 
-/* Insta og facebook logo */
-#Instaface{
-  width: 100px;
-  height: auto;
-  margin-top: 5% ;
-}
-
 
 /*Media for tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
