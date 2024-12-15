@@ -100,7 +100,6 @@ img.slide {
 flexes ved siden af hinanden */
 .sektion .tekst {
     flex: 1;
-    padding: px;
 }
 .sektion .billede {
     flex: 1;
@@ -170,7 +169,7 @@ flexes ved siden af hinanden */
     }
 
     .sektion .tekst {
-        padding: 10px;
+        padding: 2%;
     }
 
     .sektion .image img {

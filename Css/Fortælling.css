@@ -47,7 +47,7 @@ article{
     line-height: 1.8;
     color: #000;
     padding-left: 5%;
-    display: flexbox;
+    display: block;
     margin-right: 5%; /* sørger for at det er centreret med de andre tekster */
 }
 
@@ -82,16 +82,14 @@ article{
 /* styler kolonnerne så de står korrekt*/
 .kolonner{
     display: flex;
-    justify-self: space-between;
-    align-content: start;
-    margin-left: -5%;/* sørger for at det er centreret med de andre tekster */
+    margin-left: -4%;/* sørger for at det er centreret med de andre tekster */
     gap: 5%;
 }
 
 /* Tilpasser billederne af lasse og andre der danser*/
 .danser{
-    width: 30%;
-    height: 5%;
+    width: 27%;
+    height: auto;
 }
 
 /* Tilpasser Noderne*/
@@ -105,7 +103,6 @@ article{
 .Lassedanser{
     display: flex;
     justify-content: space-evenly;
-    margin-right: -3%;
 }
 
 /*Media for tablet*/
@@ -142,7 +139,7 @@ article{
     line-height: 1.8;
     color: #000;
     padding-left: 5%;
-    display: flexbox;
+    display: block;
     margin-right: 5%;
     }
 }
@@ -181,7 +178,7 @@ article{
     line-height: 1.8;
     color: #000;
     padding-left: 5%;
-    display: flexbox;
+    display: block;
     margin-right: 5%;
     }
 

@@ -19,7 +19,7 @@
 .søge-ikon {
   font-size: 200%; /* Størrelse på ikonet */
   cursor: pointer;
-  display: flexbox;
+  display: block;
 }
 
 .søge-ikon:hover {
@@ -203,7 +203,7 @@
   .søge-ikon {
     font-size: 150%; /* Størrelse på ikonet */
     cursor: pointer;
-    display: flexbox;
+    display: block;
     }
 
 
@@ -252,7 +252,7 @@
   .søge-ikon {
   font-size: 100%; /* Størrelse på ikonet */
   cursor: pointer;
-  display: flexbox;
+  display: block
   }
 
   .søge-ikon:hover {
