@@ -15,6 +15,16 @@ h1{
     margin-bottom: -8%;
 }
 
+.Starttekst{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    line-height: 2.5;
+    color: #371042;
+    text-align: center;
+    margin-top:10%;
+    margin-bottom: -5%;
+}
+
 /* Styling for illustrationen af fællesskab */
 #Illustrationcommunity{
     width: 95%;
@@ -163,6 +173,16 @@ h3{
   /*Media for tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
 
+    .Starttekst{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: medium;
+        line-height: 2.5;
+        color: #371042;
+        text-align: center;
+        margin-top:10%;
+        margin-bottom: -5%;
+    }
+
     /* sørger for at illustrationer fordeler sig korrekt på siden i tablet format */
     .Figure{
     width: 100%;
@@ -213,6 +233,16 @@ h3{
 
 /* Media for mobil */
 @media (max-width: 700px) {
+
+    .Starttekst{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: small;
+        line-height: 2;
+        color: #371042;
+        text-align: center;
+        margin-bottom: 5%;
+        padding-right:2%; 
+    }
     
      /* Styling for illustartionen af fællesskab til mobil */
     #Communitymobil{
